@@ -1,3 +1,3 @@
 # Google Python Exercises
 
-*Exercises made in course Welcome to the Django*
+**Exercises done in course Welcome to the Django**
