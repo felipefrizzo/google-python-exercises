@@ -15,8 +15,12 @@
 # modify the passed in list.
 def remove_adjacent(nums):
     # +++your code here+++
-    result = set(nums)
-    result = list(result)
+    if not nums:
+        return []
+
+    result = [nums[0]]
+    result += [n for p, n in zip(nums[:-1], nums[1:]) if n != p]
+
     return result
 
 
